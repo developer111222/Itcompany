@@ -70,9 +70,14 @@ body {
   .service-item:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   }
-
+.left,.right{
+  width: 50%;
+}
   .left img{
-    width: 100%;
+    width: 100%
+    
+    
+    ;
     border-radius: 50px;
  
   }
