@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 2rem 4rem;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 10rem 0;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .hero-section h1 {
+   
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    /* font-size: 1.2rem; */
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #004699;
+  }
+  
+  /* .services-section {
+    padding: 2rem 0;
+   
+  } */
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .service-item {
+   border: 1px solid;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: -5px 5px 0 #8c7bff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .service-item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .left img{
+    border-radius: 50px;
+ 
+  }
+  
+  .img-div{
+    width: 4rem;
+    height: 4rem;
+  }
+  .choose-div img{
+    max-width: 100%;
+    height: auto;
+  }
+.news{
+  background: rgb(39 110 241);
+  padding: 40px;
+  border-radius: 20px;
+}
+input{
+  padding: 20px;
+  width:270px ;
+  border-radius: 6px;
+}
+button{
+  font-size: 20px;
+  padding: 20px;
+  background: rgb(29 78 216);
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+  @media screen and (max-width:768px) {
+    .main-content{
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+    .flex{
+      flex-direction: column;
+    }
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+    .left img{
+      max-width: 100%;
+    }
+    .right{
+      padding: 0;
+    }
+  }
