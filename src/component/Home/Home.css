@@ -126,4 +126,7 @@ button{
     .right{
       padding: 0;
     }
+    .left,.right{
+      width: 100%;
+    }
   }
