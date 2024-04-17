@@ -48,5 +48,6 @@ color: white;
 @media screen and (max-width: 768px){
     .footer-container{
         flex-direction: column;
+        padding: 0;
     }
 }
