@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <a href="#">My Logo</a>
+        <a href="/">My Logo</a>
       </div>
       <div className={`nav-menu ${isNavOpen ? 'show' : ''}`}>
         <ul className="nav-list">
