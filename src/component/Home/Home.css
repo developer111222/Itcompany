@@ -61,7 +61,7 @@ body {
   
   .service-item {
    border: 1px solid;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 15px;
     box-shadow: -5px 5px 0 #8c7bff;
     transition: box-shadow 0.3s ease;
@@ -72,6 +72,7 @@ body {
   }
 
   .left img{
+    width: 100%;
     border-radius: 50px;
  
   }
