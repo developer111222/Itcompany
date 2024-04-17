@@ -33,7 +33,45 @@ p{
 .right{
   padding: 10px 20px;
 }
-
+.flex-con{
+  display: flex;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px;
+}
+.circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #c7bcbcee;
+  background-color: #c7bcbcee;
+}
+.flex-style{
+  background: #eee;
+  padding: 40px;
+  border-radius: 20px;
+}
+.flex-start{
+  display: flex;
+  gap: 20px;
+}
+.margin-btm{
+  margin-bottom: 10px;
+}
+@media screen and (max-width:768px){
+  .flex-con{
+    flex-direction: column;
+  }
+  .flex-center{
+    justify-content: flex-start;
+  }
+  .flex-style{
+    padding: 20px;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
