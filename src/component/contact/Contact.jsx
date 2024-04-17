@@ -1,5 +1,6 @@
 import React from 'react'
 import Details from './assets/Details'
+import ContactDetails from './assets/ContactDetails/ContactDetails'
 
 const Contact = () => {
   return (
@@ -10,6 +11,7 @@ const Contact = () => {
 <br/>
 We are here to help you with any inquiries regarding our services or to discuss potential collaborations. Let's start a conversation today.</p>
 </div>
+<ContactDetails/>
 <Details/>
         </main>
   )
