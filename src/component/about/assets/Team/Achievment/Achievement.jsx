@@ -8,6 +8,7 @@ const Achievement = () => {
                 <h2>Our Achievements</h2>
                 <p>We're proud of the milestones we've reached and the recognition we've received along the way. Our dedication to innovation and our commitment to our community have been highlighted by industry awards and accolades. Here are some of our achievements:</p>
                 <p>As we reflect on the past year, we are immensely proud of the milestones we've reached and the recognition we've received along the way. Our dedication to innovation, commitment to our community, and relentless pursuit of excellence have been highlighted by prestigious industry awards and accolades. </p>
+                <p>As we reflect on the past year, we are immensely proud of the milestones we've reached and the recognition we've received along the way. Our dedication to innovation, commitment to our community, and relentless pursuit of excellence have been highlighted by prestigious industry awards and accolades. </p>
             </div>
             <div className='right flex'>
                 <div className='left'>
