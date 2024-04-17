@@ -61,10 +61,24 @@
   .contact-form .form-group:last-child {
     margin-bottom: 0;
   }
+  .first{
+    width: 25%;
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: -5px 5px 0 #8c7bff;
+    transition: box-shadow 0.3s ease;
+  }
+  .first svg{
+    font-size: 60px;
+  }
   
   @media screen and (max-width: 600px) {
     .contact-form {
       padding: 20px;
+    }
+    .first{
+      width: 90%;
     }
   }
   
